@@ -1,5 +1,8 @@
 * {
-    font-family: monospace !important;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
 }
 
 .main {
@@ -7,10 +10,11 @@
     width: 100%;
 }
 
-.nav-link{
+.nav-link {
     font-weight: 700;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     filter: invert(36%) sepia(25%) saturate(512%) hue-rotate(210deg) brightness(95%) contrast(90%);
 }
 
@@ -99,8 +103,3 @@
     margin-top: 103px;
     /* width: 1272px; */
 }
-
-
-
-
-
