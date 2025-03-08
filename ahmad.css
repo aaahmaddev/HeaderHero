@@ -12,11 +12,14 @@
 
 .nav-link {
     font-weight: 700;
+    font-size: 12px;
 }
 
 .navbar-toggler {
     filter: invert(36%) sepia(25%) saturate(512%) hue-rotate(210deg) brightness(95%) contrast(90%);
 }
+
+
 
 .header-button1 {
     width: 154px;
@@ -33,7 +36,8 @@
     height: 48px;
     border-radius: 40px;
     border: none;
-    background-color: #c0b7e8;
+    background: rgb(129, 118, 175);
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 100%);
     color: #343045;
     font-weight: 700;
 }
@@ -45,17 +49,20 @@
 }
 
 .hero-title-span {
-    color: #8176AF;
+color: #8176AF;
 }
 
 .hero-top-left-text {
     color: #fff;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .hero-button1 {
     width: 214px;
     height: 48px;
-    background-color: #c0b7e8;
+    background: rgb(129, 118, 175);
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 100%);
     border-radius: 40px;
     border: none;
 }
@@ -66,10 +73,15 @@
     cursor: pointer;
 }
 
+.hero-img-shadow{
+    position: absolute;
+}
+
 .hero-bottom-inner {
     border-radius: 90px;
-    background-color: #211e2e;
-    opacity: 70%;
+    background: rgb(58, 52, 86);
+    background: radial-gradient(circle, rgba(58, 52, 86, 1) 0%, rgba(33, 30, 46, 1) 100%);
+    /* opacity: 70%; */
     height: 167px;
     justify-content: space-evenly;
 }
@@ -85,6 +97,7 @@
 .call-bottom-text,
 .email-bottom-text {
     color: #fff;
+    opacity: 70%;
     font-weight: 400;
 }
 
