@@ -2,8 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    user-select: none;
-    font-family: Monserrat;
+}
+
+body {
+    font-family: "Montserrat";
 }
 
 .main {
@@ -22,35 +24,31 @@
 
 
 
-.header-button1 {
+.header-button1, .header-button2 {
     width: 154px;
     height: 48px;
     background-color: #433d60;
     border: 2px solid #fff;
     border-radius: 40px;
     color: #fff;
-    font-weight: 700;
-    
+    font-size: 12px;
 }
 
 .header-button2 {
-    width: 154px;
-    height: 48px;
-    border-radius: 40px;
-    border: none;
     background: rgb(129, 118, 175);
     background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 100%);
     color: #343045;
-    font-weight: 700;
+    border: none;
 }
 
 .hero-top-left-title {
     font-size: 46px;
     color: #fff;
+    /* font-weight: bold; */
 }
 
 .hero-title-span {
-color: #8176AF;
+    color: #8176AF;
 }
 
 .hero-top-left-text {
@@ -66,7 +64,7 @@ color: #8176AF;
     background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 100%);
     border-radius: 40px;
     border: none;
-   font-size: 12px;
+    font-size: 12px;
 }
 
 .hero-arrow {
@@ -75,7 +73,7 @@ color: #8176AF;
     cursor: pointer;
 }
 
-.hero-img-shadow{
+.hero-img-shadow {
     position: absolute;
 }
 
@@ -101,6 +99,10 @@ color: #8176AF;
     color: #fff;
     opacity: 70%;
     font-weight: 400;
+}
+
+.call-bottom-text {
+    cursor: pointer;
 }
 
 /* .hero-bottom-line {
