@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     user-select: none;
+    font-family: Monserrat;
 }
 
 .main {
@@ -29,6 +30,7 @@
     border-radius: 40px;
     color: #fff;
     font-weight: 700;
+    
 }
 
 .header-button2 {
@@ -44,7 +46,6 @@
 
 .hero-top-left-title {
     font-size: 46px;
-    font-weight: 700;
     color: #fff;
 }
 
@@ -54,8 +55,8 @@ color: #8176AF;
 
 .hero-top-left-text {
     color: #fff;
-    font-weight: 400;
     font-size: 16px;
+    letter-spacing: 0%;
 }
 
 .hero-button1 {
@@ -65,6 +66,7 @@ color: #8176AF;
     background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 100%);
     border-radius: 40px;
     border: none;
+   font-size: 12px;
 }
 
 .hero-arrow {
